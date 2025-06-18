@@ -1,0 +1,33 @@
+body {
+    background-color:lavender;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.card {
+    background-color:blanchedalmond;
+    border-radius: 15px;
+    padding: 1.5em;
+    width:80%;
+    font-size:1.2rem;
+    box-shadow: 0 4px 10px rgba(1,2,3,4) ;
+}
+
+.spoiler {
+    background-color: black;
+    color:transparent;
+    border-radius:5%;
+    transition: color 0.3s ease, background-color 0.2s ease;
+    cursor: pointer;
+}   
+
+.spoiler:hover {
+    color: black;
+    background-color: transparent;
+    text-shadow: black;
+}
